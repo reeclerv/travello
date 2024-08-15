@@ -31,15 +31,15 @@ const DropdownUser = ({ isAdmin }: DropdownUserProps) => {
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">
         <DropdownMenuGroup>
-          <DropdownMenuItem>
-            <Link href="/user/profile">Profile</Link>
+          <DropdownMenuItem className="cursor-pointer ">
+            <Link href="/user/profile" className="w-56">Profile</Link>
           </DropdownMenuItem>
-          <DropdownMenuItem>
-            <Link href="/user/mybooking">My Booking</Link>
+          <DropdownMenuItem className="cursor-pointer">
+            <Link href="/user/mybooking" className="w-56">My Booking</Link>
           </DropdownMenuItem>
           {isAdmin && (
-            <DropdownMenuItem>
-              <Link href="/admin/tour/create">Create a tour</Link>
+            <DropdownMenuItem className="cursor-pointer ">
+              <Link href="/admin/tour/create" className="w-56">Create a tour</Link>
             </DropdownMenuItem>
           )}
         </DropdownMenuGroup>

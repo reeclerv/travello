@@ -7,11 +7,11 @@ const Navbar = async () => {
   const session = await getServerSession(authOptions);
 
   return (
-    <header className="bg-white border py-4">
+    <header className="bg-slate-100 border py-4">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-gray-500 font-bold text-2xl">
-            Travel Booking
+            Travello
           </Link>
           <nav className="flex flex-col">
             <ul className="flex items-center gap-6">

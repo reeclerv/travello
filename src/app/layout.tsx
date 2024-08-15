@@ -8,7 +8,7 @@ import { Providers } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Travel Booking",
+  title: "Travello",
   description:
     "Explore curated tours effortlessly with our travel app. Your gateway to unforgettable adventures.",
 };
